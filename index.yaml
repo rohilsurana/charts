@@ -3,9 +3,9 @@ entries:
   consul:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-04-10T17:36:46.217672549Z"
+    created: "2021-04-10T18:31:23.494054889Z"
     description: Minimal Helm chart for deploying consul server on kubernetes.
-    digest: bcda10c47a4cf06d105dac1626fc33bb68b45f776c4542c07c0a6cd61d83dbc7
+    digest: 6eb32657e7b0e52cdce6922174f388e767b39c895e33c444a19b8510ff1c5f3a
     name: consul
     sources:
     - https://github.com/odpf/charts
@@ -15,15 +15,28 @@ entries:
   firehose:
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-04-10T17:36:46.218479464Z"
+    created: "2021-04-10T18:31:23.49459052Z"
     description: A Helm chart for deploying Firehose on Kubernetes
-    digest: 06caccd0ac682b0d9c72363bb7787622db3fa6484f925154ec5cea72602ab3db
+    digest: 097fdddc7cd9d977649dcb98e4029d9cdae809878b7902ae9c915725ed85d36e
     name: firehose
     type: application
     urls:
     - https://rohilsurana.github.io/charts/firehose-0.1.0.tgz
     version: 0.1.0
   siren:
+  - apiVersion: v1
+    appVersion: v0.0.1
+    created: "2021-04-10T18:31:23.495175453Z"
+    description: Siren Helm chart
+    digest: 118b1a546de91dbfbe536702bb6e2967fa605a42150463b07994d3e4ebe23264
+    home: https://github.com/odpf/siren
+    name: siren
+    sources:
+    - https://github.com/odpf/siren
+    - https://github.com/odpf/charts
+    urls:
+    - https://rohilsurana.github.io/charts/siren-0.0.4.tgz
+    version: 0.0.4
   - apiVersion: v1
     appVersion: v0.0.1
     created: "2021-04-10T17:36:46.219185677Z"
@@ -63,4 +76,4 @@ entries:
     urls:
     - https://rohilsurana.github.io/charts/siren-0.0.1.tgz
     version: 0.0.1
-generated: "2021-04-10T17:36:46.216401426Z"
+generated: "2021-04-10T18:31:23.493676468Z"
