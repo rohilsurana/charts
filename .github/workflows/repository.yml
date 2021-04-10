@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Publish Helm charts
-        uses: rohilsurana/helm-gh-pages
+        uses: rohilsurana/helm-gh-pages@main
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           charts_dir: stable
